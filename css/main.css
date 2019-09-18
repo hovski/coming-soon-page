@@ -1,17 +1,31 @@
 html {
   font-family: "Poppins", sans-serif;
+  background-color: #F2F2F2;
+  color: #606060;
 }
 
 .social-icon:hover {
-  transform: scale(1.05);
-  transition: all 150ms linear;
+  transform: scale(1.05);
+  transition: all 150ms linear;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+  font-weight: 900;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 20em;
+}
+
 .social-section {
-  max-width: 1em;
-  margin: 0 auto;
+  max-width: 10em;
+}
+
+p {
+  font-weight: 500;
 }
